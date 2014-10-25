@@ -2,7 +2,12 @@ package AofA;
 import java.util.*;
 public class AofA {
 	public static void main(String[] args){
-		int[] a={2, 3, 1, 0};
+		String s="anything SATA=1241241. anything ATA=2414121";
+		String s1[]=s.split(" ATA*");
+		for(int i=0;i<s1.length;i++){
+			System.out.println(s1[i]);
+		}
+		/*int[] a={2, 3, 1, 0};
 		int[] b=new int[a.length];
 		for(int i=0;i<a.length;i++){
 			int pos=a[a[i]];
@@ -17,6 +22,6 @@ public class AofA {
 				sb=sb.append(s1[i]+" ");		
 			}
 			String s2=sb.toString();
-			System.out.println(s2);				
+			System.out.println(s2);*/				
 	}
 }
